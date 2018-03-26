@@ -43,9 +43,9 @@ public class EatFragment extends Fragment {
 
         // Instanciating an array list
         ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("Greekster", "Leckeres griechisches Essen", R.drawable.apple));
-        locations.add(new Location("Murats Doener", "Der Doener.", R.drawable.apple));
-        locations.add(new Location("Restauranta Italia", "Leckeres Italiener.", R.drawable.apple));
+        locations.add(new Location(getString(R.string.greek_name),getString(R.string.greek_desc), R.drawable.apple));
+        locations.add(new Location(getString(R.string.doener_name), getString(R.string.doener_desc), R.drawable.apple));
+        locations.add(new Location(getString(R.string.italia_name), getString(R.string.italia_desc), R.drawable.apple));
 
         // This is the array adapter, it takes the context of the activity as a
         // first parameter, the type of list view as a second parameter and your

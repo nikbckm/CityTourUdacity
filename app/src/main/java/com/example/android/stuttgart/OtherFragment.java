@@ -43,8 +43,8 @@ public class OtherFragment extends Fragment {
 
         // Instanciating an array list (
         ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("Mercedes Museum", "A lot of cars"));
-        locations.add(new Location("Porsche Museum", "Even more cars"));
+        locations.add(new Location(getString(R.string.mercedes_name), getString(R.string.mercedes_desc)));
+        locations.add(new Location(getString(R.string.porsche_name), getString(R.string.porsche_desc)));
 
         // This is the array adapter, it takes the context of the activity as a
         // first parameter, the type of list view as a second parameter and your

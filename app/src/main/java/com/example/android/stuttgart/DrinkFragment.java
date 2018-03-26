@@ -43,9 +43,8 @@ public class DrinkFragment extends Fragment {
 
         // Instanciating an array list
         ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("Mata Hari", "Nette Studentenbar", R.drawable.beer));
-        locations.add(new Location("Erster Stock", "Bar und Disco", R.drawable.beer));
-        locations.add(new Location("Tequila Bar", "Billig betrinken", R.drawable.beer));
+        locations.add(new Location(getString(R.string.matahari_name),getString(R.string.matahari_desc), R.drawable.beer));
+        locations.add(new Location(getString(R.string.ersterstock_name), getString(R.string.ersterstock_desc), R.drawable.beer));
 
         // This is the array adapter, it takes the context of the activity as a
         // first parameter, the type of list view as a second parameter and your

@@ -43,9 +43,9 @@ public class PartyFragment extends Fragment {
 
         // Instanciating an array list
         ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("Cocolores", "Club", R.drawable.confetti));
-        locations.add(new Location("DiscoDisco", "Ordentlich Disco", R.drawable.confetti));
-        locations.add(new Location("PartyParty", "Viel Party", R.drawable.confetti));
+        locations.add(new Location(getString(R.string.cocolores_name),getString(R.string.cocolores_desc), R.drawable.confetti));
+        locations.add(new Location(getString(R.string.disco_name),getString(R.string.disco_desc), R.drawable.confetti));
+        locations.add(new Location(getString(R.string.party_name),getString(R.string.party_desc), R.drawable.confetti));
 
         // This is the array adapter, it takes the context of the activity as a
         // first parameter, the type of list view as a second parameter and your

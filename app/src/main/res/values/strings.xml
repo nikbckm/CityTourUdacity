@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Stuttgart</string>
+    <string name="mercedes_name">Mercedes Museum</string>
+    <string name="mercedes_desc">Caaaaars</string>
+    <string name="porsche_name">Porsche Museum</string>
+    <string name="porsche_desc">More caaars</string>
+    <string name="matahari_name">Mata Hari</string>
+    <string name="matahari_desc">A nice small bar</string>
+    <string name="ersterstock_name">Erster Stock</string>
+    <string name="ersterstock_desc">Typical bar</string>
+    <string name="greek_name">Greekster</string>
+    <string name="greek_desc">Best greek food</string>
+    <string name="doener_name">Murats Doener</string>
+    <string name="doener_desc">Yummy Doener!</string>
+    <string name="italia_name">Italia Pizza</string>
+    <string name="italia_desc">Typical italian</string>
+    <string name="cocolores_name">Italia Pizza</string>
+    <string name="cocolores_desc">Typical italian</string>
+    <string name="disco_name">Disco</string>
+    <string name="disco_desc">So much disco</string>
+    <string name="party_name">Party</string>
+    <string name="party_desc">so much party</string>
+
 </resources>
